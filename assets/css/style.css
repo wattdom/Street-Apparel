@@ -1,0 +1,40 @@
+/* Street presentation */
+.presentation-text {
+    text-align: center;
+    text-justify: center;
+}
+
+/* Nouveautés */
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    font-weight: bold;
+}
+
+.product-img {
+    max-height: 500px;
+    max-width: fit-content;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
