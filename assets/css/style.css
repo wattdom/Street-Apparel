@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+#headerdesk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    text-align: center;
+    justify-content: flex-start;
+}
+.headertitle {
+    margin-block-start: 18%;
+}
+
+h1 {
+    margin-block-start: 45%;
+}
