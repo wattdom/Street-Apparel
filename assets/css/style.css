@@ -1,0 +1,55 @@
+/* Street presentation */
+.presentation-text {
+    text-align: justify;
+    text-justify: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+
+}
+
+/* Nouveautés */
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 4em;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.container-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.product-img {
+    max-height: 500px;
+    max-width: fit-content;
+}
+
+#news-1 {
+    margin-left: 3em;
+}
+
+#news-4 {
+    margin-right: 3em;
+}
+
+
+
+
