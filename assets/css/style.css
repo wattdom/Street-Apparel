@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+}
+
+#headerdesk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    text-align: center;
+    justify-content: flex-start;
+}
+.headertitle {
+    margin-block-start: 18%;
+}
 /* Street presentation */
 .presentation-text {
     text-align: justify;
@@ -102,12 +121,5 @@ h2 {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
-    grid-row-end: 4;
-}
-
-.im7 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
     grid-row-end: 4;
 }
