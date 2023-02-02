@@ -175,3 +175,11 @@ li a:hover {
 .active {
     background-color: hsla(0, 0%, 0%, 0.587);
 }
+
+/* Formulaire */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
