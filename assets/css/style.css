@@ -78,7 +78,7 @@ h2 {
 
 /* GRID MOSAIQUE */
 #grid {
-    margin-top: 200px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -176,6 +176,78 @@ li a:hover {
 .active {
     background-color: hsla(0, 0%, 0%, 0.587);
 }
+
+/* Formulaire */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-contact {
+    padding: 10%;
+    width: 100%;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 3em;
+}
+
+.form {
+    width: 100%;
+    margin-right: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+.identity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.identity div {
+    flex-grow: 1;
+}
+#firstname {
+    margin-right: 5%;
+}
+#phone-number {
+    display: flex;
+    flex-direction: row;
+}
+ #phone {
+    margin-left: 3%;
+ }
+
+select {
+    font-family:'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+    height: 5em;
+}
+
+button{
+    width: 30%;
+    height: 2em;
+    background:rgb(142, 142, 142);
+    border: none;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
 /* FOOTER */
 #foot {
     display: flex;
