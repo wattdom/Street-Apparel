@@ -119,7 +119,7 @@ h2 {
 
 /* GRID MOSAIQUE */
 #grid {
-    margin-top: 200px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -185,7 +185,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: rgb(218, 201, 201);
+    background-color: #dac9c9;
     width: 100%;
     height: 400px;
     align-items: center;
