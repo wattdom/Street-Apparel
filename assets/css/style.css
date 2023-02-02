@@ -14,9 +14,11 @@ body {
     text-align: center;
     justify-content: flex-start;
 }
+
 .headertitle {
     margin-block-start: 18%;
 }
+
 /* Street presentation */
 .presentation-text {
     text-align: center;
@@ -27,9 +29,11 @@ body {
     font-size: 1em;
 
 }
+
 .pone {
     margin-top: 200px;
 }
+
 /* Nouveautés */
 
 h2 {
@@ -48,7 +52,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.news{
+.news {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -126,6 +130,7 @@ h2 {
     grid-row-start: 2;
     grid-row-end: 4;
 }
+
 .im7 {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -133,6 +138,7 @@ h2 {
     grid-row-end: 4;
 }
 
+/* navbar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -153,7 +159,7 @@ li a {
     text-align: center;
     padding: 50px 100px;
     text-decoration: none;
-   
+
 }
 
 li a:hover {
@@ -163,17 +169,9 @@ li a:hover {
 .logo {
     float: left;
     width: 15%;
-    margin: 5px;
-    margin-right: 10px;
     height: 150px;
-
-
 }
 
 .active {
     background-color: hsla(0, 0%, 0%, 0.587);
-}
-
-.navi {
-    margin-top: 0px;
 }
