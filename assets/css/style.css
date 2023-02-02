@@ -35,7 +35,8 @@ li a:hover {
 
 .logo {
     width: 250px;
-    height: 150px;
+    height: 160px;
+    
 }
 
 .active {
@@ -58,9 +59,10 @@ li a:hover {
 
 h1 {
     margin-top: 40%;
-    font-size: 45px;
+    font-size: 55px;
     padding-left: 10%;
     padding-right: 10%;
+    font-family: 'Covered By Your Grace', cursive;
 }
 
 .imgheader {
@@ -113,14 +115,6 @@ h2 {
 .product-img {
     max-height: 500px;
     max-width: fit-content;
-}
-
-#news-1 {
-    margin-left: 3em;
-}
-
-#news-4 {
-    margin-right: 3em;
 }
 
 /* GRID MOSAIQUE */
@@ -216,28 +210,11 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-
-    /* Header */
-    #headerdesk {
-        flex-direction: column;
-    }
-
-    h1 {
-        margin-top: 20%;
-        margin-bottom: 20%;
-        flex-wrap: nowrap;
-    }
-
-    .imgheader {
-
-    }
-
-    .headertext {}
-
-    .headertitle {}
-
-
+@media screen and (max-width: 1336px) {
+    
+    
+}
+@media screen and (max-width: 834px) {
     /* Mosaique */
     #grid {
         grid-template-columns: repeat(2, 1fr);
@@ -291,8 +268,7 @@ h2 {
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
-    }
-
+    } 
     /* Nouveauté */
     #news-1 {
         margin-left: 0;
@@ -301,6 +277,28 @@ h2 {
     #news-4 {
         margin-right: 0;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Header */
+    #headerdesk {
+        flex-direction: column;
+    }
+
+    h1 {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        flex-wrap: nowrap;
+    }
+
+    .imgheader {
+
+    }
+
+    .headertext {}
+
+    .headertitle {}
 
     /* Footer */
     #foot {
