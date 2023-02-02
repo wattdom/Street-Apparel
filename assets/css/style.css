@@ -6,36 +6,42 @@ body {
 .navi {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: rgb(0, 0, 0);
-    line-height: 50px;
-    width: 100%;
+    line-height: auto;
+    width: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
-
+li {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 50px 100px;
     text-decoration: none;
+
 
 }
 
 li a:hover {
-    background-color: rgba(47, 49, 154, 0.609);
+    color: rgba(184, 185, 234, 0.609);
 }
 
 .logo {
-    width: 250px;
+    width: auto;
     height: 160px;
+    display: flex;
+    flex-grow: 1;
     
 }
 
