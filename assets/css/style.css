@@ -10,7 +10,8 @@ body {
 .headertext {
     display: flex;
     flex-direction: column;
-    width: 33.33%;
+    flex-wrap: wrap;
+    min-width: 33%;
     text-align: center;
     justify-content: flex-start;
 }
@@ -150,7 +151,6 @@ ul {
 
 li {
     float: left;
-
 }
 
 li a {
@@ -167,11 +167,98 @@ li a:hover {
 }
 
 .logo {
+    width: 250px;
     float: left;
-    width: 15%;
     height: 150px;
 }
 
 .active {
     background-color: hsla(0, 0%, 0%, 0.587);
+}
+/* FOOTER */
+#foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(218, 201, 201);
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    font-size: 22px;
+}
+.menufoot {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.menufoot li {
+    padding: 20px;
+}
+.join {
+    padding-top: 50px;
+}
+.newstext {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) { 
+    #grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .im1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .im2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    
+    .im3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .im4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    
+    .im5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    .im6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    
+    .im7 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+#news-1 {
+    margin-left: 0;
+}
+
+#news-4 {
+    margin-right: 0;
 }
