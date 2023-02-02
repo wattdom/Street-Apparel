@@ -87,7 +87,10 @@
             </div>
 
         </section>
-        <section id="grid">
+        
+        <section>
+            <h2>Tendances</h2>
+            <div id="grid">
             <img class="im im1" src="assets/img/mosaïque/P1.jpg" alt="Femme à lunettes">
             <img class="im im2" src="assets/img/mosaïque/P2.jpg" alt="Homme avec un sac">
             <img class="im im3" src="assets/img/mosaïque/P3.jpg" alt="Superbes chaussures colorées">
@@ -95,34 +98,34 @@
             <img class="im im5" src="assets/img/mosaïque/P5.jpg" alt="Femme a casquette">
             <img class="im im6" src="assets/img/mosaïque/P6.jpg" alt="Homme à lunettes">
             <img class="im im7" src="assets/img/mosaïque/P7.jpg" alt="Femme assise contre un mur">
+        </div>
         </section>
-
+<!-- Formulaire -->
         <section class="contact">
             <div class="text-contact">
-                <p id="form-text">Besoin d'un conseil ? D'un RDV ?Ou tout simplement envie de partager quelque chose avec nous ?</p>
+                <p id="form-text">Besoin d'un conseil ? D'un RDV ? Ou tout simplement envie de partager quelque chose avec nous ?</p>
             </div>
             <div class="form">
                 <h2>Contactez-nous !</h2>
 
                 <form>
-                    <div>
-                        <label for="prénom">Prénom</label>
-                        <input type="text" id="firstname" name="prénom" required>
-                    </div>
-                    <div>
-                        <label for="nom">Nom</label>
-                        <input type="text" id="lastname" name="nom" required>
-                    </div>
-                    <div>
-                        <label for="email">Adresse e-mail</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
+                    <div class="identity">
+                        <div>
+                            <label for="prénom">Prénom</label>
+                            <input type="text" id="firstname" name="prénom" required>
+                        </div>
+                        <div>
+                            <label for="nom">Nom</label>
+                            <input type="text" id="lastname" name="nom" required>
+                        </div>
+                    </div>  
                     <div>
                         <label for="email">Adresse e-mail</label>
                         <input type="email" id="email" name="email" required>
-                    </div>
+                    </div>                    
                     <div>
                         <label for="téléphone">Numéro de téléphone</label>
+                        <div id="phone-number">
                         <select name="prefixe" id="prefixe" required>
                             <option value="France">+33</option>
                             <option value="Guadeloupe">+590</option>
@@ -131,6 +134,7 @@
                             <option value="Reunion">+262</option>
                         </select>
                         <input type="tel" id="phone" name="phone">
+                        </div>
                     </div>
                     <div>
                         <label for="objet">Objet</label>
@@ -140,6 +144,7 @@
                             <option value="probleme">Problème sur un article ou une commande</option>
                             <option value="opinion">Envie de partager ton opinion ?</option>
                             <option value="autre">Autre</option>
+                        </select>
                     </div>
                     <div>
                         <label for="message">Message</label>
