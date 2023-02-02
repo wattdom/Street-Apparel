@@ -357,6 +357,9 @@ button{
         padding-left: 10%;
         width: fit-content;
     }
+    .text-contact {
+        width: fit-content;
+    }
 
 }
 
@@ -380,6 +383,10 @@ button{
     .headertext {}
 
     .headertitle {}
+    /* Formulaire */
+    .text-contact {
+        font-size: 2em;
+    }
 
     /* Footer */
     #foot {
