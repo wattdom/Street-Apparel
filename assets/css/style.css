@@ -19,7 +19,7 @@ body {
 }
 /* Street presentation */
 .presentation-text {
-    text-align: justify;
+    text-align: center;
     text-justify: center;
     margin-right: 20%;
     margin-left: 20%;
@@ -27,7 +27,9 @@ body {
     font-size: 1em;
 
 }
-
+.pone {
+    margin-top: 200px;
+}
 /* Nouveautés */
 
 h2 {
@@ -71,6 +73,7 @@ h2 {
 
 /* GRID MOSAIQUE */
 #grid {
+    margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -121,5 +124,11 @@ h2 {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
+    grid-row-end: 4;
+}
+.im7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
     grid-row-end: 4;
 }
