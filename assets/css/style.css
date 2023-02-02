@@ -36,7 +36,7 @@ li a:hover {
 .logo {
     width: 250px;
     height: 160px;
-    
+
 }
 
 .active {
@@ -211,10 +211,28 @@ h2 {
 }
 
 @media screen and (max-width: 1336px) {
-    
-    
+
+    /* Nouveauté */
+    .container-news {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
+
 @media screen and (max-width: 834px) {
+
+    /* Nouveauté */
+    .container-news {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
     /* Mosaique */
     #grid {
         grid-template-columns: repeat(2, 1fr);
@@ -268,7 +286,8 @@ h2 {
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
-    } 
+    }
+
     /* Nouveauté */
     #news-1 {
         margin-left: 0;
@@ -292,9 +311,7 @@ h2 {
         flex-wrap: nowrap;
     }
 
-    .imgheader {
-
-    }
+    .imgheader {}
 
     .headertext {}
 
