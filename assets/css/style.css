@@ -477,11 +477,11 @@ button:hover{
         margin-bottom: 20%;
         flex-wrap: nowrap;
         position: absolute;
-        top: 250px; left: 40px;
+        top: 250px; 
         padding-right: 10%;
         color: white;
         text-shadow: 1px 2px black;
-        
+        font-size: 45px;
     }
 
     h2 {
