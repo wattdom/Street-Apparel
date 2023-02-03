@@ -549,7 +549,7 @@ button:hover{
     #foot {
         flex-direction: column;
         font-size: 22px;
-        height: auto;
+        height: 1000px;
         text-align: center;
         position: relative;
         top: -230px;
