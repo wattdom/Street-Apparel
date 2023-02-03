@@ -196,6 +196,7 @@ h2 {
     width: 100%;
     justify-content: center;
     align-content: center;
+    margin-bottom: 5%;
 }
 
 .text-contact {
@@ -216,7 +217,7 @@ h2 {
 form div {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .identity {
@@ -260,6 +261,13 @@ button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 1em;
+    border-radius: 8px;
+
+}
+
+button:hover{
+    background-color: white;
+    border: 2px solid black;
 }
 
 /* FOOTER */
@@ -389,7 +397,8 @@ button {
     }
 
     /* Formulaire */
-    .contact {
+
+    .contact{
         display: flex;
         flex-direction: column;
     }
@@ -401,6 +410,7 @@ button {
 
     .text-contact {
         width: fit-content;
+        
     }
 
 }
@@ -466,6 +476,25 @@ button {
         margin-top: 20%;
         margin-bottom: 20%;
         flex-wrap: nowrap;
+        position: absolute;
+        top: 250px; left: 40px;
+        padding-right: 10%;
+        color: white;
+        text-shadow: 1px 2px black;
+        
+    }
+
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #streetshop {
+        display: none;
+    }
+    .presentation-text {
+        margin-top: 10%;
+        margin-bottom: 1em;
     }
 
     .imgheader {}
@@ -474,9 +503,24 @@ button {
 
     .headertitle {}
 
+    /* Nouveautés */
+    .news {
+        margin-bottom: 2em;
+    }
     /* Formulaire */
+    
     .text-contact {
         font-size: 2em;
+        position: relative;
+        top: -200px;
+        text-align: center;
+    }
+
+    .form {
+        position: relative;
+        top: -280px;
+        max-width: fit-content;
+        padding-right: 15%;
     }
 
     /* Footer */
@@ -485,6 +529,13 @@ button {
         font-size: 22px;
         height: 800px;
         text-align: center;
+        position: relative;
+        top: -230px;
+    }
+
+    .menufoot {
+        justify-content: center;
+        align-items: center;
     }
 
     .menufoot {
