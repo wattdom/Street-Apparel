@@ -20,10 +20,10 @@
                 <img class="logo-mobile" src="assets/img/logo Street apparel.png" alt="logo mobile">
             </div>
             <ul class="navlink">
-                <li style="float:left"><a href="#streetteam">LA STREET TEAM</a></li>
-                <li style="float:left"><a href="#news">NOUVEAUTÉ</a></li>
+                <li style="float:left"><a href="#street-presentation">LA STREET TEAM</a></li>
+                <li style="float:left"><a href="#new-in">NOUVEAUTÉ</a></li>
                 <li style="float:left"><a href="#tendance">TENDANCE</a></li>
-                <li style="float:left"><a href="#contact">CONTACT</a></li>
+                <li style="float:left"><a href="#form-section">CONTACT</a></li>
             </ul>
             <img class="burger" src="assets/img/navbar/icons8-menu-100.png" alt="Menu burger">
         </nav>
@@ -43,7 +43,7 @@
 
     </header>
     <main>
-        <section class="street-presentation">
+        <section id="street-presentation" class="street-presentation">
             <p class="presentation-text pone">
                 Chez Street Apparel, nous croyons que les accessoires sont un moyen important d'exprimer
                 <strong>VOTRE</strong> personnalité et de <strong>VOUS</strong> démarquer, c'est pourquoi nous proposons
@@ -59,7 +59,7 @@
 
             <p class="presentation-text three">Rejoignez la communauté Street Apparel ! A très bientôt !</p>
         </section>
-        <section class="new-in">
+        <section id="new-in" class="new-in">
             <h2>Nouveautés</h2>
             <div class="container-news">
                 <div class="news one" id="news-1">
@@ -89,7 +89,7 @@
 
         </section>
 
-        <section>
+        <section id="tendance">
             <h2>Tendances</h2>
             <div id="grid">
                 <img class="im im1" src="assets/img/mosaïque/P1.jpg" alt="Femme à lunettes">
@@ -102,7 +102,7 @@
             </div>
         </section>
         <!-- Formulaire -->
-        <section class="contact">
+        <section id="form-section" class="contact">
             <div class="text-contact">
                 <p id="form-text">Besoin d'un conseil ? D'un RDV ? Ou tout simplement envie de partager quelque chose
                     avec nous ?</p>
@@ -166,24 +166,26 @@
 <footer>
     <section id="foot">
         <div>
+            
             <p class="newstext">NEWSLETTER</p>
+            <P class="text-newsletter">Ne manquez pas les derniers lancements et mises à jour de produits.</P>
             <form action="" method="get" class="newsletter">
                 <div>
                     <label for="name"></label>
                     <input type="email" name="email" id="email" required>
                 </div>
                 <div class="button-newsletter">
-                    <input type="submit" value="Abonnez-vous">
+                    <button type="submit" value="Abonnez-vous">S'abonner</button>
                 </div>
             </form>
             <a class="legal" href="#">Mentions légales</a>
             <a class="legal" href="#">Politique de confidentialité</a>
         </div>
         <div class="menufoot">
-            <li>La Street team</li>
-            <li>Nouveautés</li>
-            <li>Tendances</li>
-            <li>Contact</li>
+            <p><a href="#street-presentation">La Street team</a></p>
+            <p><a href="#new-in">Nouveautés</p></li>
+            <p><a href="#tendance">Tendances</a></p>
+            <p><a href="form-section">Contact</a></p>
         </div>
         <div class="infofoot">
             <p>10 Avenue du lilas 80 000 AMIENS</p>

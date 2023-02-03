@@ -19,14 +19,14 @@ ul {
     flex-grow: 1;
 }
 
-li {
+ul li {
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
     font-family: 'Open Sans', sans-serif;
 }
 
-li a {
+ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -286,7 +286,21 @@ button:hover{
 #foot > div {
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+.button-newsletter {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 2em;
+    font-size: 18px;
+}
+
+.text-newsletter {
+    font-size: 15px;
+}
+
 .menufoot {
     display: flex;
     align-items: flex-start;
@@ -525,22 +539,20 @@ button:hover{
         position: relative;
         top: -280px;
         max-width: fit-content;
-        padding-right: 15%;
+    }
+
+    form{
+        padding-right: 10%;
     }
 
     /* Footer */
     #foot {
         flex-direction: column;
         font-size: 22px;
-        height: 800px;
+        height: auto;
         text-align: center;
         position: relative;
         top: -230px;
-    }
-
-    .menufoot {
-        justify-content: center;
-        align-items: center;
     }
 
     .menufoot {
