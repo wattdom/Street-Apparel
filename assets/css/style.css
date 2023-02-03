@@ -273,13 +273,22 @@ button {
     align-items: center;
     font-size: 22px;
 }
-
+#foot > div {
+    display: flex;
+    flex-direction: column;
+}
 .menufoot {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     padding-top: 5%px;
 }
-
+.legal {
+    padding-top: 15px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
 .menufoot li {
     padding: 10%;
 }
@@ -476,6 +485,11 @@ button {
         font-size: 22px;
         height: 800px;
         text-align: center;
+    }
+
+    .menufoot {
+        justify-content: center;
+        align-items: center;
     }
 
     #foot div {
