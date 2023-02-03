@@ -541,8 +541,8 @@ button:hover{
         max-width: fit-content;
     }
 
-    form{
-        padding-right: 10%;
+    .form form{
+        padding-right: 20%;
     }
 
     /* Footer */
@@ -553,6 +553,9 @@ button:hover{
         text-align: center;
         position: relative;
         top: -230px;
+    }
+    .text-newsletter {
+        font-size: 15px;
     }
 
     .menufoot {
