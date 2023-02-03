@@ -50,6 +50,19 @@ li a:hover {
 .logo-mobile {
     display: none;
 }
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+}
+.up {
+    width: 80px;
+    height: 80px;
+}
 
 /* Header */
 #headerdesk {
@@ -418,6 +431,9 @@ button:hover{
 @media screen and (max-width: 480px) {
 
     /* navbar */
+    .btn {
+        display: none;
+    }
     .navi {
         position: absolute;
         justify-content: center;
