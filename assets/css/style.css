@@ -507,7 +507,7 @@ button:hover{
         margin-left: 0;
     }
 
-    li a {
+    ul li a {
         color: black;
         font-weight: 600;
         font-size: larger;
